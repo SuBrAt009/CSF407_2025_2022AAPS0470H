@@ -98,5 +98,811 @@ prompt_given_to_gemini = (
 
 ```
 
+### OUR EXECUTION TERMINAL LOGS- ( We did our final testing with trials=10 due to time constraint, code will work for any number of trials, just replace trials=10 to trials= 'req number of trials' everywhere in the code.
+```
+Select game mode:
+1 - LLM vs LLM
+2 - LLM vs Human
+Enter 1 or 2: 1
+Enter board size (e.g., 3 for 3x3): 3
+Running game 1 of 10...
 
+  |   |
+-----------
+  |   |
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+  |   |  
+-----------
+  | X |
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+  |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+X |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+X | O | X
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O |   |
+-----------
+Gemini's Turn (X)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O | X |
+-----------
+Groq's Turn (O)
+
+X | O | X
+-----------
+O | X | O
+-----------
+O | X |
+-----------
+Gemini's Turn (X)
+
+X | O | X
+-----------
+O | X | O
+-----------
+O | X | X
+-----------
+Gemini (X) wins, letsgooooo!
+
+Running game 2 of 10...
+
+  |   |
+-----------
+  |   |
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+  |   |  
+-----------
+  | X |
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+  |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+X |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+X | O | X
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O |   |
+-----------
+Gemini's Turn (X)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O | X |
+-----------
+Groq's Turn (O)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O | X | O
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+X | O | X
+-----------
+X | X | O
+-----------
+O | X | O
+-----------
+It's a draw, but groq deserves a win coz it held on even after starting second(fair enough ig)
+Running game 3 of 10...
+
+  |   |
+-----------
+  |   |
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+  |   |  
+-----------
+  | X |
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+  |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+X |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+X | O | X
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O |   |
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+X | O | X
+-----------
+  | X | O
+-----------
+O | X |
+-----------
+Groq's Turn (O)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O | X | O
+-----------
+Gemini's Turn (X)
+
+X | O | X
+-----------
+X | X | O
+-----------
+O | X | O
+-----------
+It's a draw, but groq deserves a win coz it held on even after starting second(fair enough ig)
+Pausing for 20 seconds to avoid overloading errors :)))...
+
+Running game 4 of 10...
+
+  |   |
+-----------
+  |   |
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+  |   |  
+-----------
+  | X |
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+  |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+X |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+X | O | X
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O | X
+-----------
+  | X | O
+-----------
+  | O |
+-----------
+Gemini's Turn (X)
+
+X | O | X
+-----------
+  | X | O
+-----------
+X | O |
+-----------
+Gemini (X) wins, letsgooooo!
+
+Running game 5 of 10...
+
+  |   |
+-----------
+  |   |
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+  |   |  
+-----------
+  | X |
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+  |   |  
+-----------
+O | X |
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+X |   |  
+-----------
+O | X |
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X |   | O
+-----------
+O | X |
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+X | X | O
+-----------
+O | X |
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | X | O
+-----------
+O | X |
+-----------
+  | O |
+-----------
+Gemini's Turn (X)
+
+X | X | O
+-----------
+O | X |
+-----------
+  | O | X
+-----------
+Gemini (X) wins, letsgooooo!
+
+Running game 6 of 10...
+
+  |   |
+-----------
+  |   |
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+  |   |  
+-----------
+  | X |
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+  |   |  
+-----------
+  | X |
+-----------
+  |   | O
+-----------
+Gemini's Turn (X)
+
+  |   |  
+-----------
+X | X |
+-----------
+  |   | O
+-----------
+Groq's Turn (O)
+
+  |   |  
+-----------
+X | X | O
+-----------
+  |   | O
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+  | X |  
+-----------
+X | X | O
+-----------
+  |   | O
+-----------
+Groq's Turn (O)
+
+O | X |  
+-----------
+X | X | O
+-----------
+  |   | O
+-----------
+Gemini's Turn (X)
+
+O | X | X
+-----------
+X | X | O
+-----------
+  |   | O
+-----------
+Groq's Turn (O)
+
+O | X | X
+-----------
+X | X | O
+-----------
+  | O | O
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+O | X | X
+-----------
+X | X | O
+-----------
+X | O | O
+-----------
+Gemini (X) wins, letsgooooo!
+
+Pausing for 20 seconds to avoid overloading errors :)))...
+
+Running game 7 of 10...
+
+  |   |
+-----------
+  |   |
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+  |   |  
+-----------
+  | X |
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+  |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+X |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+X | O | X
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O |   |
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+X | O | X
+-----------
+  | X | O
+-----------
+O | X |
+-----------
+Groq's Turn (O)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O | X | O
+-----------
+Gemini's Turn (X)
+
+X | O | X
+-----------
+X | X | O
+-----------
+O | X | O
+-----------
+It's a draw, but groq deserves a win coz it held on even after starting second(fair enough ig)
+Running game 8 of 10...
+
+  |   |
+-----------
+  |   |
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+  |   |  
+-----------
+  | X |
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+  |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+X |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+X | O | X
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O |   |
+-----------
+Gemini's Turn (X)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O | X |
+-----------
+Groq's Turn (O)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O | X | O
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+X | O | X
+-----------
+X | X | O
+-----------
+O | X | O
+-----------
+It's a draw, but groq deserves a win coz it held on even after starting second(fair enough ig)
+Running game 9 of 10...
+
+  |   |
+-----------
+  |   |
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+  |   |  
+-----------
+  | X |
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+  |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+X |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+X | O | X
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O |   |
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+X | O | X
+-----------
+  | X | O
+-----------
+O | X |
+-----------
+Groq's Turn (O)
+
+X | O | X
+-----------
+  | X | O
+-----------
+O | X | O
+-----------
+Gemini's Turn (X)
+
+X | O | X
+-----------
+X | X | O
+-----------
+O | X | O
+-----------
+It's a draw, but groq deserves a win coz it held on even after starting second(fair enough ig)
+Pausing for 20 seconds to avoid overloading errors :)))...
+
+Running game 10 of 10...
+
+  |   |
+-----------
+  |   |
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+  |   |  
+-----------
+  | X |
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+  |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+X |   |  
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X |   | O
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Gemini's Turn (X)
+
+Resource exhausted error encountered (Groq). Retrying in 20 seconds (attempt 1/3)...
+X | X | O
+-----------
+  | X | O
+-----------
+  |   |
+-----------
+Groq's Turn (O)
+
+X | X | O
+-----------
+  | X | O
+-----------
+  | O |
+-----------
+Gemini's Turn (X)
+
+X | X | O
+-----------
+  | X | O
+-----------
+X | O |
+-----------
+Groq's Turn (O)
+
+X | X | O
+-----------
+  | X | O
+-----------
+X | O | O
+-----------
+Groq (O) wins, letsgooooo!
+```
+We have attached resulting exersice1.png and exersice1.json in  the src folder only.
 
